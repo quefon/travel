@@ -1,0 +1,45 @@
+#body{
+	background:black;
+	margin: 0 auto;
+	padding: 40px 20px;
+	height: 60%;
+}
+#body .picture {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1600px;
+}
+#body .picture img{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1590px;
+	height: 800px;
+	border: 5px solid #FFFFFF;
+}
+#body .header {
+	overflow: hidden;
+	margin: 15px auto;
+	width: 1800px;
+	//border: 3px solid #FFFFFF;
+}
+#body .header ul li {
+	text-decoration: none;
+	float: left;
+	list-style: none;
+	position: relative;
+	margin: 0 0 0 25px;
+}
+
+#body .header ul li img {
+	border: 3px solid #FFFFFF;
+	padding: 0 auto;
+	width:400px;
+	height:300px;
+	border-radius:100px;
+	//width:300px;
+	//height:250px;
+}
+#body .header ul li img:hover {
+	border-style:dashed;
+	//opacity: 0.5;
+}
